@@ -1,6 +1,6 @@
 import React from 'react';
 
-class GoodForm extends React.PureComponent {
+class GoodForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = { data: '' };

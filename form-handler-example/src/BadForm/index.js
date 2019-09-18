@@ -1,6 +1,6 @@
 import React from 'react';
 
-class BadForm extends React.PureComponent {
+class BadForm extends React.Component {
   constructor(props) {
     super(props);
     this.myRef = React.createRef();
